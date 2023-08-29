@@ -1,4 +1,4 @@
-window.promises = [
+window.promise = [
 
 	new promise((resolve)=> setTimeOut(()=>resolve('promise 1') Math.random()*4000+1000)),
 	new promise((resolve)=> setTimeOut(()=> resolve('promise 2')Math.random ()*4000+1000)),
